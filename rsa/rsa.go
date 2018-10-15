@@ -116,7 +116,7 @@ func PrivateEncrypt(from []byte, pem string, padding int) ([]byte, error) {
 		return m, nil
 	}
 }
-
+/*
 func Destroy() {
 	C.ERR_free_strings()
 }
@@ -124,3 +124,4 @@ func Destroy() {
 func init() {
 	C.ERR_load_crypto_strings()
 }
+*/
